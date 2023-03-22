@@ -1,0 +1,36 @@
+canvas {
+  background-color: #232323;
+  border: 2px solid #ffffff;
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #1abc9c;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #7f8c8d;
+  cursor: default;
+}
+
+#score-board {
+  text-align: center;
+}
+
+#score-board p {
+  font-size: 20px;
+  margin: 0;
+}
+
+#score-board span {
+  font-weight: bold;
+  margin-left: 5px;
+}

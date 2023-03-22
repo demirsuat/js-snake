@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snake</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="game-canvas" width="600" height="600"></canvas>
+    <img id="apple" src="apple.png" alt="Apple" style="display:none;">
+    <img id="shead" src="shead.png" alt="Head" style="display:none;">
+    <img id="sbody" src="sbody.png" alt="Body" style="display:none;">
+    <div>
+      <button id="start-button">Start</button>
+      <button id="stop-button" disabled>Stop</button>
+      <div>
+        Score: <span id="score">0</span>
+      </div>
+      <div>
+        High Score: <span id="high-score">0</span>
+      </div>
+    </div>
+    <script src="snake.js"></script>
+  </body>
+</html>
